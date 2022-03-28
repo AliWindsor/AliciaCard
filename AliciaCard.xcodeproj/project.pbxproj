@@ -12,6 +12,7 @@
 		AEA5644127F1B88200150B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5644027F1B88200150B03 /* Assets.xcassets */; };
 		AEA5644427F1B88200150B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5644327F1B88200150B03 /* Preview Assets.xcassets */; };
 		AEA5644B27F1C62200150B03 /* Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5644A27F1C62200150B03 /* Color Extension.swift */; };
+		AEA5646327F1CED700150B03 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEA5646227F1CED700150B03 /* Raleway-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		AEA5644027F1B88200150B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA5644327F1B88200150B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEA5644A27F1C62200150B03 /* Color Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Extension.swift"; sourceTree = "<group>"; };
+		AEA5646227F1CED700150B03 /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		AEA5646427F1CFB100150B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +56,11 @@
 		AEA5643B27F1B88200150B03 /* AliciaCard */ = {
 			isa = PBXGroup;
 			children = (
+				AEA5646427F1CFB100150B03 /* Info.plist */,
 				AEA5643C27F1B88200150B03 /* AliciaCardApp.swift */,
 				AEA5644D27F1C96500150B03 /* View */,
 				AEA5644C27F1C95300150B03 /* Extensions */,
+				AEA5644E27F1CE4000150B03 /* Fonts */,
 				AEA5644027F1B88200150B03 /* Assets.xcassets */,
 				AEA5644227F1B88200150B03 /* Preview Content */,
 			);
@@ -84,6 +89,14 @@
 				AEA5643E27F1B88200150B03 /* ContentView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AEA5644E27F1CE4000150B03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5646227F1CED700150B03 /* Raleway-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA5644427F1B88200150B03 /* Preview Assets.xcassets in Resources */,
+				AEA5646327F1CED700150B03 /* Raleway-VariableFont_wght.ttf in Resources */,
 				AEA5644127F1B88200150B03 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AliciaCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliciaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -317,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AliciaCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliciaCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

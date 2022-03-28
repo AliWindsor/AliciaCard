@@ -23,7 +23,16 @@ struct CardView: View {
 
   var body: some View {
     ZStack {
-      Color("#9b82c2").edgesIgnoringSafeArea(.all)
+      Color("#9b82c2")
+        .edgesIgnoringSafeArea(.all)
+      VStack{
+        Text("Alicia Windsor")
+          .font(Font.custom("Raleway", size: 30))
+          .bold()
+          .foregroundColor(.white)
+        
+        Text("Hej")
+      }
 
     }
     
