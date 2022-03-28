@@ -26,12 +26,23 @@ struct CardView: View {
       Color("#9b82c2")
         .edgesIgnoringSafeArea(.all)
       VStack{
+        
+        Image("Alicia_Picture")
+          .resizable()
+          .aspectRatio(contentMode: .fit)
+          .frame(width: 200.0, height: 200.0)
+          .clipShape(Circle())
+          .overlay(Circle()
+            .stroke(.white, lineWidth: 5))
+        
         Text("Alicia Windsor")
           .font(Font.custom("Raleway", size: 30))
           .bold()
           .foregroundColor(.white)
         
-        Text("Hej")
+        Text("Graduate Mobile Developer")
+          .opacity(0.5)
+          .foregroundColor(.white)
       }
 
     }
