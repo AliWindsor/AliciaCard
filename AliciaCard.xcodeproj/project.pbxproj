@@ -11,6 +11,7 @@
 		AEA5643F27F1B88200150B03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5643E27F1B88200150B03 /* ContentView.swift */; };
 		AEA5644127F1B88200150B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5644027F1B88200150B03 /* Assets.xcassets */; };
 		AEA5644427F1B88200150B03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA5644327F1B88200150B03 /* Preview Assets.xcassets */; };
+		AEA5644B27F1C62200150B03 /* Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA5644A27F1C62200150B03 /* Color Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AEA5643E27F1B88200150B03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AEA5644027F1B88200150B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA5644327F1B88200150B03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEA5644A27F1C62200150B03 /* Color Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				AEA5643C27F1B88200150B03 /* AliciaCardApp.swift */,
-				AEA5643E27F1B88200150B03 /* ContentView.swift */,
+				AEA5644D27F1C96500150B03 /* View */,
+				AEA5644C27F1C95300150B03 /* Extensions */,
 				AEA5644027F1B88200150B03 /* Assets.xcassets */,
 				AEA5644227F1B88200150B03 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				AEA5644327F1B88200150B03 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEA5644C27F1C95300150B03 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5644A27F1C62200150B03 /* Color Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEA5644D27F1C96500150B03 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEA5643E27F1B88200150B03 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +158,7 @@
 			files = (
 				AEA5643F27F1B88200150B03 /* ContentView.swift in Sources */,
 				AEA5643D27F1B88200150B03 /* AliciaCardApp.swift in Sources */,
+				AEA5644B27F1C62200150B03 /* Color Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
